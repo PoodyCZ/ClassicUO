@@ -2072,6 +2072,8 @@ namespace ClassicUO.Network
                         UIManager.Add(gump);
                     }
                 }
+                
+                World.Journal.Load();
             }
         }
 
